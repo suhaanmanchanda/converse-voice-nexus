@@ -3,25 +3,16 @@ import { ArrowRight } from "lucide-react";
 export const Solutions = () => {
   const solutions = [
     {
-      category: "E-commerce",
-      title: "AI Post Order Review Voice System",
-      description: "Our AI Automated Voice System that calls a customer after the product has been delivered to generate a review. If the review is positive, AI will use customer information to recommend a similar product for the user to purchase.",
-      features: ["Gather Data", "Generate Sales", "Convince Customer"],
-      image: "/lovable-uploads/f75e7f20-d8cd-4b35-a2cb-c9b1abe3432a.png"
-    },
-    {
       category: "Any Business",
       title: "AI Customer Support Team Voice System",
       description: "Our AI Customer team handles all parts of customer support via departments. If a customer asks 3 questions about a specific product, AI will recommend that product with a discount code.",
-      features: ["24/7 Customer Support", "Multiple AI Voice Agents", "Free Sales"],
-      image: "/lovable-uploads/0fe99ccb-fe6a-4364-8117-4a2f88dbb721.png"
+      features: ["24/7 Customer Support", "Multiple AI Voice Agents", "Free Sales"]
     },
     {
       category: "Any Business",
       title: "AI Lead Nurturing Voice System",
       description: "Our AI Lead Nurturing Voice system isn't a regular AI Lead Generation Agent. A system that not only generates its own leads but also nurtures them through various messaging systems and outbound calls.",
-      features: ["Automatically Books Meetings", "Fit For Any Business Out There", "Guaranteed Success In Booking Meetings"],
-      image: "/lovable-uploads/ea4f7f0f-e432-44e4-a757-f1a109abbc77.png"
+      features: ["Automatically Books Meetings", "Fit For Any Business Out There", "Guaranteed Success In Booking Meetings"]
     }
   ];
 
@@ -58,8 +49,10 @@ export const Solutions = () => {
                   Get Started <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
-              <div className={`rounded-lg overflow-hidden ${index % 2 === 1 ? 'md:order-1' : ''}`}>
-                <img src={solution.image} alt={solution.title} className="w-full h-auto" />
+              <div className={`rounded-lg overflow-hidden bg-secondary/50 p-8 ${index % 2 === 1 ? 'md:order-1' : ''}`}>
+                <div className="aspect-video flex items-center justify-center">
+                  <span className="text-muted-foreground">Solution Preview</span>
+                </div>
               </div>
             </div>
           ))}
