@@ -22,54 +22,27 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#0A0F1C",
+        background: "#0A0A0A",
         foreground: "#FFFFFF",
         primary: {
-          DEFAULT: "#3B82F6",
+          DEFAULT: "#FF3838",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#1E293B",
-          foreground: "#FFFFFF",
-        },
-        accent: {
-          DEFAULT: "#60A5FA",
+          DEFAULT: "#1A1A1A",
           foreground: "#FFFFFF",
         },
         muted: {
-          DEFAULT: "#334155",
-          foreground: "#94A3B8",
+          DEFAULT: "#27272A",
+          foreground: "#A1A1AA",
+        },
+        accent: {
+          DEFAULT: "#FF3838",
+          foreground: "#FFFFFF",
         },
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
-      },
-      keyframes: {
-        "fade-up": {
-          "0%": {
-            opacity: "0",
-            transform: "translateY(10px)",
-          },
-          "100%": {
-            opacity: "1",
-            transform: "translateY(0)",
-          },
-        },
-        "fade-in": {
-          "0%": {
-            opacity: "0",
-          },
-          "100%": {
-            opacity: "1",
-          },
-        },
-      },
-      animation: {
-        "fade-up": "fade-up 0.5s ease-out",
-        "fade-in": "fade-in 0.5s ease-out",
-      },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
     },
   },
