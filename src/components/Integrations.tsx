@@ -1,4 +1,4 @@
-import { Link, Network, Plug } from "lucide-react";
+import { Link, Network, Plug, ArrowRight } from "lucide-react";
 
 export const Integrations = () => {
   const integrations = [
@@ -54,7 +54,7 @@ export const Integrations = () => {
 
         <div className="mt-12 text-center">
           <button className="primary-button">
-            Explore All Integrations <ArrowRight className="w-4 h-4" />
+            Explore All Integrations <ArrowRight className="w-4 h-4 ml-2 inline" />
           </button>
         </div>
       </div>
