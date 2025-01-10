@@ -25,7 +25,7 @@ export default {
         background: "#0A0A0A",
         foreground: "#FFFFFF",
         primary: {
-          DEFAULT: "#FF3838",
+          DEFAULT: "#FF1414", // Updated accent color
           foreground: "#FFFFFF",
         },
         secondary: {
@@ -37,7 +37,7 @@ export default {
           foreground: "#A1A1AA",
         },
         accent: {
-          DEFAULT: "#FF3838",
+          DEFAULT: "#FF1414", // Updated accent color
           foreground: "#FFFFFF",
         },
       },
