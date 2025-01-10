@@ -6,11 +6,11 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-gradient-radial from-primary/10 via-background to-background" />
       <div className="relative max-w-7xl mx-auto px-4 py-24 text-center">
         <h1 className="text-5xl md:text-6xl font-bold tracking-tight animate-fade-up">
-          Take the Next Step with
-          <span className="block mt-2">converse.ai</span>
+          AI Voice Solutions for
+          <span className="block mt-2">forward-thinking businesses</span>
         </h1>
         <p className="mt-6 text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-          Seize the Opportunity to Transform Your Business! Enhance engagement, drive conversions, and amplify results with AI Voice Solutions for any niche!
+          Boost sales, meetings, and more with our AI Voice System Solutions
         </p>
         
         <div className="mt-8 flex justify-center gap-8 animate-fade-up" style={{ animationDelay: "0.3s" }}>
